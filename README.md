@@ -1,24 +1,20 @@
-# Sprinkling Act — 6-Gate Methodology
+# Sprinkling Act 6-Gate Methodology
 
-> **The Sprinkling Act methodology applies six sequential regulatory gates to classify any AI system under the EU AI Act (Regulation (EU) 2024/1689).**
->
-> This repository documents the framework openly so that any reader, reviewer, or downstream tool can reproduce or audit the classification logic Sprinkling Act applies in its Free Diagnostic, Full Report, and continuous monitoring products.
+Six sequential regulatory gates that classify an AI system under the EU AI Act (Regulation (EU) 2024/1689).
 
-**Live reference**: [sprinklingact.com/methodology](https://sprinklingact.com/methodology)
+This repository documents the framework so any reader, reviewer, or downstream tool can reproduce or audit the classification logic Sprinkling Act applies in its Free Diagnostic, Full Report, and continuous monitoring.
 
-**Current version**: v1.3 — May 2026 (post-Digital Omnibus alignment, provisional trilogue agreement of 7 May 2026)
+Live reference: [sprinklingact.com/methodology](https://sprinklingact.com/methodology)
+
+Current version: v1.3, May 2026 (post-Digital Omnibus alignment, provisional trilogue agreement of 7 May 2026)
 
 **License**: MIT
-
----
 
 ## 1. Principle
 
 Gates are evaluated **in sequence**. The first gate triggered determines the final classification. Lower gates are not evaluated once a higher gate has been triggered. Gates are **irreversible**: a Prohibited Practice at Gate 01 ends the assessment immediately, and no later score can override a legal violation.
 
 This sequential structure mirrors the architecture of the AI Act itself: prohibitions (Article 5) supersede high-risk classification, which supersedes transparency, which supersedes baseline GPAI obligations.
-
----
 
 ## 2. The 6 Gates
 
@@ -79,8 +75,6 @@ GPAI model providers (not systemic risk) must maintain technical documentation, 
 - Specialised language models for specific domains
 - Multimodal models used in downstream products
 
----
-
 ## 3. Scoring legend (Full Report)
 
 | Score band | Classification | Note |
@@ -90,8 +84,6 @@ GPAI model providers (not systemic risk) must maintain technical documentation, 
 | 35/100 | Limited Risk (GPAI / Transparency) | Art. 50 or Art. 53 obligations. Disclosure requirements apply. |
 | 10/100 | Minimal Risk | No mandatory obligations beyond Art. 4 AI literacy. Voluntary code of conduct recommended. |
 
----
-
 ## 4. Interpretation engine
 
 The EU AI Act requires contextual interpretation. Article 5 prohibited practices are clear for some cases, ambiguous for others. Article 6 high-risk classification depends on context of use, not just on technology. Article 51 GPAI systemic risk thresholds are still being operationalised by the AI Office.
@@ -99,8 +91,6 @@ The EU AI Act requires contextual interpretation. Article 5 prohibited practices
 Sprinkling Act does not resolve ambiguity. It **flags ambiguity explicitly** and recommends legal counsel for edge cases.
 
 Sprinkling Act is an operational tool, not a legal opinion. It produces the structured, article-mapped artefact your lawyer, regulator, or investor needs as a starting point. It names the boundary a classification triggers: Art. 9-15 (including the Art. 15 accuracy and robustness burden), Annex IV technical documentation, and Art. 72 post-market monitoring. It does not produce those artefacts; substantive demonstration is the responsibility of the downstream chain (your lawyer, auditor, or notified body). We delimit the obligations; we do not discharge them.
-
----
 
 ## 5. Cross-references to international standards
 
@@ -111,8 +101,6 @@ The four NIST functions (Govern, Map, Measure, Manage) mirror the lifecycle appr
 ### ISO/IEC 42001:2023 — AI Management Systems
 
 ISO 42001 requires organisations to establish risk assessment processes (Clause 6), operational controls (Clause 8), and performance evaluation (Clause 9). The 6-gate assessment produces the risk classification and obligation mapping that feeds into an ISO 42001-compliant AI Management System. The assessment does not replace an AIMS. It provides the regulatory input that an AIMS requires.
-
----
 
 ## 6. Version history
 
@@ -133,8 +121,6 @@ Post-Digital Omnibus alignment (provisional trilogue agreement of 7 May 2026, su
 
 Initial public release aligned with the original AI Act calendar (Regulation (EU) 2024/1689, Official Journal L of 12 July 2024).
 
----
-
 ## 7. Related Sprinkling Act publications (Zenodo)
 
 | Publication | Date | DOI |
@@ -145,8 +131,6 @@ Initial public release aligned with the original AI Act calendar (Regulation (EU
 
 OpenTimestamps cryptographic proofs for the above PDFs: [sprinkling-act/timestamps](https://github.com/sprinkling-act/timestamps).
 
----
-
 ## 8. What this repository is NOT
 
 - Not a software library to assess your AI system automatically. It is a **documented framework** that humans (and downstream tools) can apply.
@@ -155,15 +139,11 @@ OpenTimestamps cryptographic proofs for the above PDFs: [sprinkling-act/timestam
 
 For the full position statement, see [sprinklingact.com/clarity](https://sprinklingact.com/clarity).
 
----
-
 ## 9. License
 
 This methodology framework is released under the **MIT License**. You are free to reproduce, adapt, and apply it, subject to attribution.
 
 If you build a tool or service on top of this framework, attribution to Sprinkling Act (Brussels, Belgium · BCE BE 1034.962.482) is required.
-
----
 
 ## 10. Contributing
 
@@ -172,7 +152,5 @@ This repository is currently maintained by Sprinkling Act (Lamar B. Shucrani, Fo
 For substantive issues (regulatory interpretation, post-Omnibus updates, gate logic edge cases), please open a GitHub Issue with a precise statement of the concern and any supporting reference.
 
 For typos, formatting, or non-substantive corrections, pull requests are welcome.
-
----
 
 *Maintained by Sprinkling Act · Brussels, Belgium · [sprinklingact.com](https://sprinklingact.com)*
