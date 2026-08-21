@@ -3,10 +3,10 @@
 The Sprinkling Act method for reconstructing how one AI workflow actually runs, and for measuring the distance between what an organisation declares about it and what its own material establishes.
 
 Live reference: [sprinklingact.com/methodology](https://sprinklingact.com/methodology)
-Current version: v2.0, August 2026. See [`CHANGELOG.md`](CHANGELOG.md).
+Current version: v1.6, August 2026. See [`CHANGELOG.md`](CHANGELOG.md).
 License: MIT.
 
-This repository holds two documents. This one describes the analysis. [`ai-act-gates.md`](ai-act-gates.md) describes the EU AI Act gate framework, which is the regulatory layer and comes after the analysis, not before it.
+This repository holds three documents. This one describes the analysis. [`ai-act-gates.md`](ai-act-gates.md) describes the EU AI Act gate framework, which is the regulatory layer and comes after the analysis, not before it. [`TRANSITION.md`](TRANSITION.md) records what this repository documented until July 2026, why that object was abandoned, and what was deliberately left uncorrected.
 
 ## 1. The position
 
@@ -32,6 +32,8 @@ These caveats travel with the figures every time they are reused, not only on fi
 
 What the two studies make possible: the director is simultaneously the person who believes themselves the most covered and the person contributing the most to what they cannot see. The analysis measures that distance in one particular case, theirs. It is an object in its own right, not a degraded inventory.
 
+**Two words for two things.** The visibility gap is what is measured: the distance between what a director describes and what the elements establish. Reconstruction is what happens in order to measure it: establishing what takes place from sources that are not people's recollection, then setting the two against each other. The first names the result, the second the method.
+
 ## 3. Three levels, three different questions
 
 | | Question | Source | |
@@ -42,15 +44,21 @@ What the two studies make possible: the director is simultaneously the person wh
 
 Each level can conclude that there is no next step. The free tool has four outcomes, two of which route away from the offer: a deployment that is already documented, and no decision ahead. The Baseline concludes whether a Full Map is warranted, on conditions written in advance (section 8), not on an appreciation formed after reading.
 
-The Baseline is a precondition for the Full Map. Technically it is not needed, since the Full Map produces more directly. The reason is different: a scoping report that can conclude *do not proceed* only means something if nobody skips it. Selling the full engagement to someone whose need was never tested destroys the one thing that makes the arrangement credible.
+The Baseline is a precondition for the Full Map, and the reason is methodological before it is commercial. The Full Map's central deliverable is the gap document: the difference between the measurement taken with the director alone and the one taken with the three or four people who run the work. Without a delivered Baseline there is no term of comparison, so the requirement is a constraint on the method rather than a step in a sales ladder. It has a second effect worth stating: a scoping report that can conclude *do not proceed* only means something if nobody skips it.
+
+Two rules follow from that.
+
+**The Baseline report is sealed before the first Full Map interview.** Revised after hearing the teams it would no longer be a comparison, it would be a reconstruction, and the gap it is supposed to establish would have been erased by the act of measuring it.
+
+**The gap is attributed line by line, by the date of the element, not carried as a single quantity.** An element predating the close of the Baseline collection is a blind spot, established. One postdating it is drift, a finding in its own right. A line carried by a statement alone stays unattributed and is marked as such. The close of the collection is therefore dated in the report, distinctly from the readout date.
 
 ## 4. How the work runs
 
-**01. One workflow at a time.** The unit is a workflow, not a company and not a system. It is named and bounded in writing before anything starts, and what falls outside is stated rather than assumed.
+**01. The unit is a distance, not an inventory.** The scope is one workflow, named and bounded in writing before anything starts. What is measured inside it is the distance between what the director describes and what the elements they provide establish. We do not inventory an organisation's AI use: at the Baseline the single source is the director, and what they cannot see does not become visible because we question them better. The workflow examined is the one they designate, not one we select by comparing several, which would require the overview we have just said we do not have.
 
 **02. Exports, not access.** We ask for material a team can share rather than credentials to their systems: an export, a shared calendar, a version history, a folder of dated files, a subscription invoice. Nothing is installed, no agent runs on the client side, nothing is left behind.
 
-**03. Declared first, then checked.** We start from the procedure as written and from what the people running the workflow describe. Then we look for the elements that would confirm or contradict it. Starting the other way round would tell us what the systems were configured to do, not what the organisation does.
+**03. Declared first, then checked.** We start from the procedure as written and from what the director describes of it, which at the Baseline is the single source. Then we look for the elements that would confirm or contradict it. Starting the other way round would tell us what the systems were configured to do, not what the organisation does.
 
 **04. Every finding says what it rests on.** A finding rests on the procedure as written, on elements we could examine, or on an inference we make explicit. The reader always knows which.
 
@@ -78,11 +86,11 @@ The reconstruction is the work; it is not the deliverable. The deliverable is th
 
 **04. An evidence status on every line.** Four statuses, section 6. A gap is only established once a second source of a different kind confirms it.
 
-**05. Rework time, counted.** First-pass acceptance rate, and rework minutes, on the critical chains. Without those two numbers the report stays a description; with them it becomes an arbitration. **These two numbers belong to the Full Map, not to the Baseline**, because they rest on a time estimate and a time estimate has to come from the people who do the work, not from the person describing it from above.
+**05. Rework time, at Full Map.** First-pass acceptance rate, and rework minutes, on the critical chains. They do not appear in the Baseline: estimating them means asking the people who do the work, not the person who decides, and an estimate of someone else's time is not a measurement. Without those two numbers the report stays a description; with them it becomes an arbitration. That is what separates the two levels, not a shortcoming of the first.
 
 **06. The portable share of the skill.** What, in what the teams learned, would survive a change of tool. This single line often carries the decision on its own.
 
-**07. Structural incompatibilities.** Where two tools adopted separately will produce friction once their data meet. The only finding that bears on the future, and the only one visible from above.
+**07. Structural incompatibilities, at Full Map.** Where two tools adopted by different departments will produce friction once their data meet. The only finding that bears on the future, and the only one that requires a view from above, which is why it does not appear in the Baseline: a single source, looking from one position, cannot establish it. Where the Baseline glimpses one, it is recorded as an open question, never as an established finding.
 
 **08. The expiry date.** From when each family of findings stops being reliable, and why. A date per family, not a general validity note.
 
@@ -133,6 +141,8 @@ Stated here, and repeated at the point in the report where each limit takes effe
 **It does not establish what the teams do.** That is the blind spot the data quantifies: more than half of workers use tools without approval while their director reports 90% confidence. The Baseline measures that gap; it does not close it.
 
 **It does not establish first-pass acceptance rate or rework minutes.** Both rest on a time estimate, and self-reported time is systematically overestimated. Here the distance is doubled, since the director would be estimating time spent by other people, a case the literature we consulted does not cover. Direction of the bias unknown, therefore never used as an argument. Both numbers are announced as Full Map deliverables.
+
+**It does not establish structural incompatibilities.** That finding requires a view from above, which a single source looking from one position does not have. Where the Baseline glimpses one it is recorded as an open question, and it is established at the Full Map or not at all.
 
 **It certifies nothing and judges nothing.** Not an audit, not legal advice, not a certification.
 

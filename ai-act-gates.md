@@ -6,6 +6,8 @@ Six sequential regulatory gates that place an AI system under the EU AI Act (Reg
 
 It is documented here so that any reader, reviewer, or downstream tool can reproduce or contest the reading, and so that a regulatory annotation on a report can be traced to the gate that produced it.
 
+Until July 2026 this framework was the whole of what this repository documented, and the classification it produces was the product. It was moved downstream in August 2026, not retired. What made it move is set out in [`TRANSITION.md`](TRANSITION.md).
+
 Live reference: [sprinklingact.com/methodology](https://sprinklingact.com/methodology)
 
 Current version: v1.3, May 2026 (post-Digital Omnibus alignment, provisional trilogue agreement of 7 May 2026). See [`CHANGELOG.md`](CHANGELOG.md).
