@@ -3,7 +3,7 @@
 The Sprinkling Act method for reconstructing how one AI workflow actually runs, and for measuring the distance between what an organisation declares about it and what its own material establishes.
 
 Live reference: [sprinklingact.com/methodology](https://sprinklingact.com/methodology)
-Current version: v1.6, August 2026. See [`CHANGELOG.md`](CHANGELOG.md).
+Current version: v1.10, September 2026. See [`CHANGELOG.md`](CHANGELOG.md).
 License: MIT.
 
 This repository holds three documents. This one describes the analysis. [`ai-act-gates.md`](ai-act-gates.md) describes the EU AI Act gate framework, which is the regulatory layer and comes after the analysis, not before it. [`TRANSITION.md`](TRANSITION.md) records what this repository documented until July 2026, why that object was abandoned, and what was deliberately left uncorrected.
@@ -58,7 +58,9 @@ Two rules follow from that.
 
 **02. Exports, not access.** We ask for material a team can share rather than credentials to their systems: an export, a shared calendar, a version history, a folder of dated files, a subscription invoice. Nothing is installed, no agent runs on the client side, nothing is left behind.
 
-**03. Declared first, then checked.** We start from the procedure as written and from what the director describes of it, which at the Baseline is the single source. Then we look for the elements that would confirm or contradict it. Starting the other way round would tell us what the systems were configured to do, not what the organisation does.
+**03. Declared first, and declared cold.** We start from the procedure as written and from what the director describes of it, which at the Baseline is the single source. Then we look for the elements that would confirm or contradict it. Starting the other way round would tell us what the systems were configured to do, not what the organisation does.
+
+The description is taken **before the director has gathered anything**, and that condition carries as much weight as the order itself. A description prepared from one's own elements says what the elements say rather than what the person sees, and the distance we exist to measure disappears with it. The internal specimen of 3 September 2026 settled the point: a gap of 1,096 commits signed for by no one appeared only because the description came before the history was opened. Had it been consulted first, those commits would have been cited and the finding would not exist. What the director discovers while assembling their own file is recorded separately, as a finding in its own right.
 
 **04. Every finding says what it rests on.** A finding rests on the procedure as written, on elements we could examine, or on an inference we make explicit. The reader always knows which.
 
