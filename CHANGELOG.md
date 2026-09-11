@@ -2,7 +2,7 @@
 
 Two objects live in this repository. They are documented separately, because one now sits downstream of the other.
 
-- **The analysis method**, [`README.md`](README.md). Currently **v1.6**, August 2026.
+- **The analysis method**, [`README.md`](README.md). Currently **v1.10**, September 2026.
 - **The AI Act gate framework**, [`ai-act-gates.md`](ai-act-gates.md). Currently **v1.3**, May 2026.
 
 They share one version line, published at [sprinklingact.com/methodology](https://sprinklingact.com/methodology): v0.1 to v1.3 versioned the gate framework, v1.4 onward versions the analysis method. The object changed at v1.4; the numbering did not restart, because restarting it would suggest a new product rather than a redefinition of the same work. Why the object changed is set out in [`TRANSITION.md`](TRANSITION.md).
@@ -12,6 +12,22 @@ They share one version line, published at [sprinklingact.com/methodology](https:
 ---
 
 ## Analysis method
+
+### v1.10 — September 2026
+
+The inversion of 4 September was right on the source of truth and wrong on the sequence, and this version corrects the sequence. Findings rest on the elements and never on the word alone: that stands. But the description is now taken FIRST, cold, before the director has gathered anything. The reason is in the specimen of 3 September: the gap of 1,096 unsigned-for commits appeared because the director described before touching his history. Had he gone through it first, he would have cited them and the finding would not exist. A description prepared from one’s own elements says what the elements say, not what the person sees, and the distance being measured disappears. What the director discovers while assembling his own file is now recorded separately, as a finding of its own. Same version, three additions the method lacked. First, what separates an element from a declaration: the date and purpose of creation, never the medium. A note written in March for oneself is an element; the same information typed for the engagement is a declaration. Nothing is refused; what is bounded is promotion, not acceptance. Second, the three types of element, and the third is the most productive: invoicing says what is paid for, prior procedures say what was decided, and the dated outputs of the workflow say what was actually done. AI embedded in software already paid for something else bills nothing and is never cited, because it is not experienced as AI; it still leaves a trace on what it produces. Expected coverage is two categories of different types over twelve months, with the reason written for each missing type. Third, where a workflow starts and stops: at the framing of a request to an AI tool, and at the first output that leaves the control of the person who asked for it.
+
+### v1.9 — September 2026
+
+The entry inverts. Until now the survey started from what the director describes and looked for contradiction in the elements. It now starts from the elements themselves — tool invoicing, exports, dated files, version histories — and the description is taken second, as the control. What is measured is unchanged: the distance between the two. What changes is the door, and with it what is promised before purchase. The reason is in the evidence: on the internal specimen of 3 September 2026, everything that carried weight came from the traces, and the declared map ran to twelve lines. The part that did the work was the part that did not depend on the word. Consequence for the perimeter: the survey is bounded by what the elements establish. Whatever leaves no billed or dated trace does not appear in it, and the report names what it could not reach. This is still not an inventory: an inventory claims coverage, and this claims none. Consequence for the engagement: without invoicing or exports there is no survey, and that is said before payment rather than after. One person is still interviewed at the Baseline, and teams still come in only at the Full Map. Same version, catalogue: the Full Map includes the Baseline as one engagement. A buyer who already had the Baseline delivered pays the difference; it is not redone and not billed twice. The total is identical on both paths, nothing is refunded and nothing is discounted, so the rule that the diagnostic is never credited is untouched in substance.
+
+### v1.8 — September 2026
+
+Two figures served on this page since 10 April 2026 are withdrawn, and a deliverable promise with them. The 5–10× factor between self-certification and third-party audit rested on no source, and the only primary source available contradicts it: on the Commission’s impact assessment SWD(2021) 84, the third-party route adds €3,000–7,500 of documentary review to €6,000–10,000 of compliance costs both routes carry, a ratio of about 1.4 to 2.1. The indicative Notified Body cost of €50–150K per system is replaced by the figures that source actually carries, with its caveats: 2021 estimates, contested as low, vendor ranges higher and unsourced. The three sources displayed under those figures — Article 43, Annex VI, Annex VII — carry no cost at all; a figure placed above them borrowed their standing. SWD(2021) 84 is added. And the sentence stating that Sprinkling Act identifies which conformity assessment route applies to a system, in the full report, is removed: no current offer produces it, and determining a route is a legal qualification. Same version, ISO 42001 alignment: the claim that the 6-gate assessment produces a risk classification and an obligation mapping feeding an AIMS is withdrawn. The survey establishes a distance on one workflow, with an evidence status per finding; that is the material clause 6 presupposes, and nothing more.
+
+### v1.7 — August 2026
+
+The methodology stops describing itself as a pre-conformity layer. Sprinkling Act enters at usage and visibility; the pre-conformity work comes after the survey rather than framing it, and the regulatory governance paragraph now says so. Nothing changes in the six gates: what changes is where the regulation sits relative to the measurement. The v1.6 edition stays available as published.
 
 ### v1.6 — August 2026
 
